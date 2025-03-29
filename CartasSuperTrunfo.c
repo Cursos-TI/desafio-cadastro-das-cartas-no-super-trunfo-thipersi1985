@@ -2,7 +2,10 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
-// Teste Thiago Pereira
+// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
+// Siga os comentários para implementar cada parte do desafio.
+// Teste THIAGO
+
 
 int main() { //função principal
     char est1[10], est2[10], cod1[10], cod2[10], cid1[50], cid2[50]; //declaração de variáveis do tipo char (variáveis que armazenam um ou mais caracteres)
@@ -59,5 +62,5 @@ int main() { //função principal
     printf("PIB: %.2f bilhões de reais \n", pib2);
     printf("Pontos turísticos: %d \n", pontotur2);
     
-    return 0; //término do programa, indica que o programa terminou com sucesso.
+    return 0; //término do programa, indica que o programa terminou com sucesso
 }
