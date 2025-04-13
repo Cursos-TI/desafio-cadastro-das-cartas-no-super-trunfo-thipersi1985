@@ -16,7 +16,7 @@ int main() { //função principal
     printf("Digite o nome da cidade: \n");
     scanf("%s", &cid1);
     printf("Digite o número de habitantes da cidade: \n");
-    scanf("%d", &pop1); //%d está especificando que o formato a ser lido é um número inteiro
+    scanf("%u", &pop1); //%u está especificando que o formato a ser lido é um número inteiro positivo
     printf("Digite a área da cidade em quilômetros quadrados, por favor, utilize apenas números, sem pontuação: \n");
     scanf("%f", &area1); //%f está especificando que o formato a ser lido é um número decimal
     printf("Digite o Produto Interno Bruto da cidade, por favor, utilize apenas números, sem pontuação: \n");
@@ -32,7 +32,7 @@ int main() { //função principal
     printf("Digite o nome da cidade: \n");
     scanf("%s", &cid2);
     printf("Digite o número de habitantes da cidade: \n");
-    scanf("%d", &pop2);
+    scanf("%u", &pop2);
     printf("Digite a área da cidade em quilômetros quadrados, por favor, utilize apenas números, sem pontuação: \n");
     scanf("%f", &area2);
     printf("Digite o Produto Interno Bruto da cidade, por favor, utilize apenas números, sem pontuação: \n");
@@ -55,10 +55,7 @@ int main() { //função principal
     pontotur = pontotur1 > pontotur2;
     pib_percapita = pib_percapita1 > pib_percapita2;
     densidade_pop = densidade_pop1 < densidade_pop2;
-
-    //printf("superpoder1: %.0f \n", superpoder1);
-    //printf("superpoder2: %.0f \n", superpoder2);
-   
+ 
     printf("Comparação de cartas:\n");
     printf("População: %u \n", populacao);
     printf("Área: %.0f \n", area);
